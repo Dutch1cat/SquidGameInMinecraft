@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Game in Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="season_4.png">
+
+</head>
+<body>
+    <header>
+        <h1>Squid Game in Minecraft</h1>
+        <p>made by dutch_cat_, ducktapeidiot</p>
+        <p>Join our event and challenge other players!</p>
+        
+    </header>
+
+    <section class="info">
+        <h2>What is Squid Game in Minecraft?</h2>
+        <p>It’s an event inspired by the famous series, recreated inside Minecraft. Overcome the challenges and win!</p>
+        <p>online members right now: <span id="member-count">loading...</span></p>
+        <p>the minecraft server is java/bedrock, so you can join from a pc, tablet, phone or any platform</p>
+        <p>for console join the discord and open a post in #【🤔】➥┊problems</p>
+    </section>
+
+    <section class="registration">
+        <h2>How to participate?</h2>
+        <p>Join our Discord server and follow the instructions.</p>
+        <a href="https://discord.gg/7J8SjQmTpg" class="btn">Join the discord</a>
+    </section>
+    <section class="red-section">
+        <h2>Support</h2>
+        <p>for support join the discord, <a href="https://discord.gg/7J8SjQmTpg" class="btn2">here</a></p>
+        <p>and open a post in #【🤔】➥┊problems, if you have a suggestion in #【☝】➥┊suggestions</p>
+        <p>you are also able to ask guards in chat or in dm!</p>
+    </section>
+    
+
+    <footer>
+        <p>© 2025 Squid Game in Minecraft - All rights reserved</p>
+    </footer>
+    <script>
+        async function updateMemberCount() {
+            const serverId = "TUO_SERVER_ID";  // Sostituiscilo con il tuo ID
+            const response = await fetch(`https://discord.com/api/guilds/1339319241408774307/widget.json`);
+            const data = await response.json();
+            document.getElementById("member-count").textContent = data.presence_count;
+        }
+        updateMemberCount();
+        setInterval(updateMemberCount, 30000);  // Aggiorna ogni 30 secondi
+    </script>
+    
+</body>
+</html>
