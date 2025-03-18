@@ -118,7 +118,7 @@ footer {
 }
 
 .rules {
-    background: linear-gradient(to bottom, black, red);
+    background: black;
     padding: 50px 20px;
     color: white;
     text-align: left;
