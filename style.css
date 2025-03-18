@@ -84,3 +84,35 @@ footer {
 }
 
 
+.red-section2 {
+    background: linear-gradient(to bottom, black, red); /* Sfumatura da rosso a nero */
+    color: white; /* Testo bianco */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.red-section2 h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.red-section2 p {
+    font-size: 1.2em;
+}
+
+.red-section2 .btn {
+    background-color: white; /* Pulsante bianco */
+    color: red; /* Testo rosso */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.red-section2 .btn:hover {
+    background-color: black; /* Cambia colore al passaggio del mouse */
+    color: white;
+}
+
