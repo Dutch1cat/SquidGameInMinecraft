@@ -85,7 +85,7 @@ footer {
 
 
 .red-section2 {
-    background-color: red; /* Aggiunto il punto e virgola */
+    background-color: red !important;
     color: white; /* Testo bianco */
     padding: 50px 20px;
     text-align: center;
