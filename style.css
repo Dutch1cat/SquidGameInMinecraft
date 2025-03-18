@@ -117,3 +117,34 @@ footer {
     color: white;
 }
 
+.rules {
+    background: linear-gradient(to bottom, black, red);
+    padding: 50px 20px;
+    color: white;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.rules h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.rules ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rules li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.back {
+    text-align: center;
+    margin: 20px;
+}
