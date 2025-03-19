@@ -236,7 +236,7 @@ body {
 /* Aggiungi anche l'animazione per il contenuto per farlo comparire */
 .content {
     opacity: 0;
-    animation: fadeInContent 1s ease-in-out forwards 0s; /* Velocità più alta, partenza immediata */
+    animation: fadeInContent 0s ease-in-out forwards 0s; /* Velocità più alta, partenza immediata */
 }
 
 @keyframes fadeInContent {
