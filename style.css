@@ -214,7 +214,7 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-    animation: fadeIn 1s ease-in-out forwards; /* Animazione più veloce */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Animazione più veloce */
 }
 
 /* Animazione per aumentare la luminosità */
@@ -236,7 +236,7 @@ body {
 /* Aggiungi anche l'animazione per il contenuto per farlo comparire */
 .content {
     opacity: 0;
-    animation: fadeInContent 0s ease-in-out forwards 0s; /* Velocità più alta, partenza immediata */
+    animation: fadeInContent 0.5s ease-in-out forwards 0.5s; /* Velocità più alta, partenza immediata */
 }
 
 @keyframes fadeInContent {
