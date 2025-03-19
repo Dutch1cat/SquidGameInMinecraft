@@ -217,33 +217,4 @@ body {
     animation: fadeIn 0.5s ease-in-out forwards; /* Animazione più veloce */
 }
 
-/* Animazione per aumentare la luminosità */
-@keyframes fadeIn {
-    0% {
-        background-color: #000; /* Sfondamento iniziale nero */
-        opacity: 0;
-    }
-    50% {
-        background-color: #000; /* Continuare con sfondo nero per metà animazione */
-        opacity: 0.3; /* Appena un po' più visibile */
-    }
-    100% {
-        background-color: #000; /* Mantieni lo sfondo nero */
-        opacity: 1; /* Diventa completamente visibile */
-    }
-}
 
-/* Aggiungi anche l'animazione per il contenuto per farlo comparire */
-.content {
-    opacity: 0;
-    animation: fadeInContent 0.5s ease-in-out forwards 0.5s; /* Velocità più alta, partenza immediata */
-}
-
-@keyframes fadeInContent {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
