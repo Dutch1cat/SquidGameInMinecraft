@@ -206,15 +206,5 @@ footer {
     opacity: 0.8;
 }
 
-/* Aggiungi questa animazione per il body */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    animation: fadeIn 0.5s ease-in-out forwards; /* Animazione più veloce */
-}
 
 
