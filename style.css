@@ -16,7 +16,7 @@ h1 {
     font-size: 36px;
 }
 
-.btn {
+.btn, .btn2 {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
@@ -25,21 +25,15 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-}
-.btn2 {
-    display: inline-block;
-    padding: 5px 10px;
-    margin-top: 10px;
-    background-color: #fff;
-    color: #ff0000;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 2px;
+    border: 2px solid transparent; /* Aggiunto bordo trasparente per evitare cambiamenti di dimensione */
+    transition: background-color 0.3s, color 0.3s; /* Effetti transizione */
 }
 
-.btn:hover {
+.btn:hover, .btn2:hover {
     background-color: #ddd;
+    border: 2px solid #ddd; /* Mantiene la dimensione fissa */
 }
+
 
 section {
     padding: 50px 20px;
