@@ -206,5 +206,46 @@ footer {
     opacity: 0.8;
 }
 
+/* --- How to Join Page Styles --- */
+.how-to-join {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.1);
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.how-to-join h2 {
+    color: red;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.how-to-join p {
+    font-size: 1.2em;
+}
+
+.back {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+    border: 2px solid red;
+    color: red;
+}
 
 
